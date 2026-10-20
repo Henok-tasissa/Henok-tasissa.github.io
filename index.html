@@ -3,49 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wordsprout</title>
-<meta name="description" content="Wordsprout: find words, watch them grow. A word connect game in English, Amharic and Spanish.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%232FA36B%27/%3E%3Ctext x=%2732%27 y=%2744%27 font-family=%27Arial,Helvetica,sans-serif%27 font-size=%2736%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3EW%3C/text%3E%3C/svg%3E">
+<title>Henok Tasissa · Projects</title>
+<meta name="description" content="Privacy policies and terms for apps by Henok Tasissa">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%232FA36B%27/%3E%3Ctext x=%2732%27 y=%2744%27 font-family=%27Arial,Helvetica,sans-serif%27 font-size=%2736%27 font-weight=%27700%27 fill=%27white%27 text-anchor=%27middle%27%3EH%3C/text%3E%3C/svg%3E">
 <style>
-  :root { --green:#2FA36B; --ink:#1f2a24; --muted:#5b6b62; --bg:#f6faf7; --card:#ffffff; --line:#dbe7df; }
+  :root { --accent:#2FA36B; --ink:#1f2a24; --muted:#5b6b62; --bg:#f6faf7; --card:#ffffff; --line:#dbe7df; }
   * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-  .hero { background:var(--green); color:#fff; padding:56px 16px 48px; text-align:center; }
-  .hero img { width:120px; height:120px; border-radius:28px; box-shadow:0 10px 30px rgba(0,0,0,.2); }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans Ethiopic", sans-serif; }
+  header { background:var(--accent); color:#fff; padding:24px 16px; }
+  header .wrap { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+  header a { color:#fff; text-decoration:none; font-weight:700; font-size:21px; }
+  header nav { margin-left:auto; display:flex; gap:16px; font-size:15px; }
+  header nav a { font-weight:600; opacity:.95; }
+  .hero { background:var(--accent); color:#fff; padding:40px 16px 48px; text-align:center; }
   .hero h1 { font-size:40px; margin:18px 0 4px; }
   .hero p { margin:0; font-size:20px; opacity:.95; }
   .wrap { max-width:760px; margin:0 auto; padding:0 16px; }
-  main { padding:32px 0 60px; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:14px; margin:20px 0; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; }
-  .card h3 { margin:0 0 4px; font-size:19px; }
-  .card p { margin:0; color:var(--muted); font-size:15px; }
-  h2 { font-size:22px; color:var(--green); margin:32px 0 8px; }
-  a { color:var(--green); }
-  footer { color:var(--muted); font-size:14px; padding:20px 16px 40px; text-align:center; }
-
-  .tile { display:inline-flex; align-items:center; justify-content:center; background:#fff; color:var(--green); font-weight:800; border-radius:22%; box-shadow:0 6px 18px rgba(0,0,0,.18); position:relative; }
+  main { padding:28px 0 60px; }
+  h1 { font-size:30px; margin:0 0 6px; }
+  .updated { color:var(--muted); margin:0 0 28px; }
+  h2 { font-size:21px; margin:34px 0 10px; color:var(--accent); }
+  ul { padding-left:22px; }
+  li { margin:6px 0; }
+  a { color:var(--accent); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px; margin:14px 0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:14px; margin:20px 0; }
+  .grid .card { margin:0; display:block; text-decoration:none; color:inherit; }
+  .grid .card:hover { border-color:var(--accent); }
+  .grid h3 { margin:0 0 4px; font-size:19px; }
+  .grid p { margin:0; color:var(--muted); font-size:15px; }
+  .links { display:flex; gap:14px; flex-wrap:wrap; margin:8px 0 0; font-size:15px; }
+  .tile { display:inline-flex; align-items:center; justify-content:center; background:#fff; color:var(--accent); font-weight:800; border-radius:22%; box-shadow:0 6px 18px rgba(0,0,0,.18); position:relative; }
   .tile::after { content:"🌱"; position:absolute; top:-30%; right:-18%; font-size:.55em; }
+  footer { color:var(--muted); font-size:14px; padding:20px 16px 40px; text-align:center; }
+  footer a { color:var(--muted); }
 </style>
 </head>
 <body>
-<section class="hero">
-  <div class="tile" style="width:120px;height:120px;font-size:72px" aria-hidden="true">W</div>
-  <h1>Wordsprout</h1>
-  <p>Find words. Watch them grow.</p>
-</section>
+<header><div class="wrap"><a href="index.html">Henok Tasissa</a></div></header>
 <main class="wrap">
-  <p>Swipe letters on a wheel to fill a crossword. 5,000 levels in 50 packs, bonus words, hints, daily rewards, trophies, and Tilly, a living letter tile who cheers you on. Progress is saved on your device, with no account needed.</p>
+  <h1>Projects</h1>
+  <p class="updated">Apps by Henok Tasissa, with the privacy policy and terms for each one.</p>
   <div class="grid">
-    <div class="card"><h3>Wordsprout</h3><p>English · 5,000 levels</p></div>
-    <div class="card"><h3>ቃል በቃል</h3><p>Amharic · 5,000 levels</p></div>
-    <div class="card"><h3>Palabra a Palabra</h3><p>Spanish · 5,000 levels</p></div>
+    <a class="card" href="projects/wordsprout/index.html"><h3>Wordsprout</h3><p>English · Find words. Watch them grow.</p><p class="links"><span>Privacy</span><span>Terms</span></p></a>
+    <a class="card" href="projects/qal-be-qal/index.html"><h3>ቃል በቃል (Qal be Qal)</h3><p>Amharic · ቃላትን ፈልግ። ሲያድጉ ተመልከት።</p><p class="links"><span>Privacy</span><span>Terms</span></p></a>
+    <a class="card" href="projects/palabra-a-palabra/index.html"><h3>Palabra a Palabra</h3><p>Spanish · Encuentra palabras. Míralas crecer.</p><p class="links"><span>Privacy</span><span>Terms</span></p></a>
   </div>
-  <h2>Support</h2>
-  <p>Questions, bugs or a word that should be accepted? Email <a href="mailto:henoktasissa@gmail.com">henoktasissa@gmail.com</a>.</p>
-  <h2>Privacy</h2>
-  <p>Read the <a href="privacy.html">privacy policy</a>. The app has no accounts; progress stays on your device. Ads are served by Google AdMob and purchases are handled by the App Store, Google Play and RevenueCat.</p>
+  <h2>Contact</h2>
+  <p>Email <a href="mailto:henoktasissa@gmail.com">henoktasissa@gmail.com</a>.</p>
 </main>
-<footer>© 2026 Henok Tasissa · <a href="privacy.html">Privacy</a></footer>
+
+<footer>© 2026 Henok Tasissa · <a href="index.html">All projects</a></footer>
 </body>
 </html>

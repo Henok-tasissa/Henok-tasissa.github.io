@@ -1,0 +1,47 @@
+{
+  "owner": "Henok Tasissa",
+  "email": "henoktasissa@gmail.com",
+  "site": "https://henok-tasissa.github.io",
+  "projects": [
+    {
+      "slug": "wordsprout",
+      "name": "Wordsprout",
+      "tagline": "Find words. Watch them grow.",
+      "language": "English",
+      "description": "A word connect game: swipe letters on a wheel to fill a crossword. 5,000 levels in 50 packs, bonus words, hints, daily rewards, trophies, and Tilly, a living letter tile who cheers you on.",
+      "bundleId": "com.wordsprout.english",
+      "color": "#2FA36B",
+      "updated": "20 October 2026",
+      "ads": true,
+      "purchases": true,
+      "accounts": false
+    },
+    {
+      "slug": "qal-be-qal",
+      "name": "ቃል በቃል",
+      "latinName": "Qal be Qal",
+      "tagline": "ቃላትን ፈልግ። ሲያድጉ ተመልከት።",
+      "language": "Amharic",
+      "description": "An Amharic word connect game: swipe fidel tiles on a wheel to fill a crossword. 5,000 levels in 50 packs, bonus words, hints, daily rewards and trophies.",
+      "bundleId": "com.wordsprout.amharic",
+      "color": "#2FA36B",
+      "updated": "20 October 2026",
+      "ads": true,
+      "purchases": true,
+      "accounts": false
+    },
+    {
+      "slug": "palabra-a-palabra",
+      "name": "Palabra a Palabra",
+      "tagline": "Encuentra palabras. Míralas crecer.",
+      "language": "Spanish",
+      "description": "A Spanish word connect game: swipe letters on a wheel to fill a crossword. 5,000 levels in 50 packs, bonus words, hints, daily rewards and trophies.",
+      "bundleId": "com.wordsprout.spanish",
+      "color": "#2FA36B",
+      "updated": "20 October 2026",
+      "ads": true,
+      "purchases": true,
+      "accounts": false
+    }
+  ]
+}
