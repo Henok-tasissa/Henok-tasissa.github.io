@@ -1,3 +1,1 @@
-# Wordsprout app-ads.txt
-# Replace pub-0000000000000000 with the publisher ID shown in AdMob under Settings → Account.
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-1969936559657416, DIRECT, f08c47fec0942fa0
