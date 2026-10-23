@@ -11,7 +11,7 @@
       "description": "A word connect game: swipe letters on a wheel to fill a crossword. 5,000 levels in 50 packs, bonus words, hints, daily rewards, trophies, and Tilly, a living letter tile who cheers you on.",
       "bundleId": "com.wordsprout.english",
       "color": "#2FA36B",
-      "updated": "21 October 2026",
+      "updated": "23 October 2026",
       "ads": true,
       "purchases": true,
       "accounts": false
@@ -25,7 +25,7 @@
       "description": "An Amharic word connect game: swipe fidel tiles on a wheel to fill a crossword. 5,000 levels in 50 packs, bonus words, hints, daily rewards and trophies.",
       "bundleId": "com.wordsprout.amharic",
       "color": "#2FA36B",
-      "updated": "21 October 2026",
+      "updated": "23 October 2026",
       "ads": true,
       "purchases": true,
       "accounts": false
@@ -38,7 +38,7 @@
       "description": "A Spanish word connect game: swipe letters on a wheel to fill a crossword. 5,000 levels in 50 packs, bonus words, hints, daily rewards and trophies.",
       "bundleId": "com.wordsprout.spanish",
       "color": "#2FA36B",
-      "updated": "21 October 2026",
+      "updated": "23 October 2026",
       "ads": true,
       "purchases": true,
       "accounts": false
