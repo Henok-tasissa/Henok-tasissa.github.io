@@ -42,6 +42,27 @@
       "ads": true,
       "purchases": true,
       "accounts": false
+    },
+    {
+      "slug": "water-ring-toss",
+      "name": "Water Ring Toss: Aquarium",
+      "tagline": "Pump the water. Catch the rings. Fill your aquarium.",
+      "language": "English",
+      "description": "A water ring toss game: hold the pump, tilt the tank and land every ring on the pegs. Hundreds of levels with timed and boss tanks, helpful magic fish, and an aquarium to fill with creatures you hatch from eggs.",
+      "bundleId": "com.waterringtoss.app",
+      "color": "#1BA3D6",
+      "updated": "24 October 2026",
+      "ads": true,
+      "purchases": true,
+      "accounts": false,
+      "progress_items": "collected sea creatures, unlocked tank styles and room themes",
+      "notifications_text": "The app does not send notifications. If you turn on phone tilt, the motion sensor is read on your device only and its readings never leave it",
+      "content_assets": "level designs",
+      "items_list": "Coins, eggs, boosters, magic fish, time boosts, aquarium creatures, tank frames, room themes",
+      "content_title": "Eggs and random rewards",
+      "content_text": "Eggs hatch a random sea creature you do not already own. The chance of each rarity is shown in the app (Aquarium, then See egg odds) before you open an egg, and every creature can eventually be collected. Eggs and the creatures inside them are virtual items with no cash value.",
+      "support_prompt": "Questions or bugs?",
+      "purchases_list": "coin packs, the Splash Pack, Double Coins, the piggy bank and Remove Ads"
     }
   ]
 }

@@ -23,12 +23,26 @@ def page(template, *, title, meta, color, initial, root, footer_links="", **vars
     )
 
 
+# Wording that differs between word games and other games. Existing projects keep these defaults.
+DEFAULTS = {
+    "progress_items": "collected letter tiles",
+    "notifications_text": "If you allow reminders, they are scheduled on your device and nothing about them leaves it",
+    "content_assets": "word selections",
+    "items_list": "Coins, hints, letter tiles, stickers, costumes",
+    "content_title": "Word content",
+    "content_text": "The app's word lists are built from public dictionaries and other sources, and are filtered to remove offensive words. The filtering is automated and imperfect. If a word slips through or a valid word is missing, email us and we will review it. We do not guarantee that every word in the game is appropriate, correct or accepted in every region, dialect or spelling.",
+    "purchases_list": "coin packs, the Starter Pack and Remove Ads",
+    "support_prompt": "Questions, bugs or a word that should be accepted?",
+}
+
 cards = []
 for p in cfg["projects"]:
     out = ROOT / "projects" / p["slug"]
     out.mkdir(parents=True, exist_ok=True)
     latin = f" ({p['latinName']})" if p.get("latinName") else ""
     vars = {k: p[k] for k in ("name", "tagline", "description", "updated")} | {"latin": latin}
+    for k, default in DEFAULTS.items():
+        vars[k] = p.get(k, default)
     initial = p.get("latinName", p["name"])[0].upper()
     common_kw = dict(color=p["color"], initial=initial, root="../../")
     footer = f' · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>'
