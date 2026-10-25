@@ -63,6 +63,27 @@
       "content_text": "Eggs hatch a random sea creature you do not already own. The chance of each rarity is shown in the app (Aquarium, then See egg odds) before you open an egg, and every creature can eventually be collected. Eggs and the creatures inside them are virtual items with no cash value.",
       "support_prompt": "Questions or bugs?",
       "purchases_list": "coin packs, the Splash Pack, Double Coins, the piggy bank and Remove Ads"
+    },
+    {
+      "slug": "orbit-blocks",
+      "name": "Orbit Blocks",
+      "tagline": "Fill the rings. Clear the dial.",
+      "language": "English",
+      "description": "A circular block puzzle: drag pieces onto a dial and fill a whole ring or slice to clear it. Adventure levels with goals, an endless Legend mode that changes its look as your score climbs, boosters, a daily coin chest and optional chill music.",
+      "bundleId": "com.henok.orbitblocks",
+      "color": "#6A4CF0",
+      "updated": "25 October 2026",
+      "ads": true,
+      "purchases": true,
+      "accounts": false,
+      "progress_items": "stars and unlocked levels, your Legend best score and zone, boosters you own",
+      "notifications_text": "The app does not send notifications",
+      "content_assets": "level designs",
+      "items_list": "Coins, Turns packs, hammers, bombs, shuffles",
+      "content_title": "Boosters and rewards",
+      "content_text": "Coins, Turns and boosters are virtual items with no cash value. Rewarded ads are optional: every mode can be played without watching one, and the game never requires a purchase to continue.",
+      "support_prompt": "Questions or bugs?",
+      "purchases_list": "coin packs, the Starter Pack and Remove Ads"
     }
   ]
 }
