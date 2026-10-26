@@ -35,6 +35,18 @@ DEFAULTS = {
     "support_prompt": "Questions, bugs or a word that should be accepted?",
 }
 
+# Projects with "crash_reports": true send crash reports to Sentry; the policy must say so (never hand-edit the built
+# HTML for this, a rebuild would drop it).
+CRASH_ITEM = (
+    '\n    <li>If the app crashes, a crash report is sent to <a href="https://sentry.io/privacy/">Sentry</a>. It contains '
+    "technical details only (device model, operating system and app version, and the error), with no name, account or "
+    "screenshots. We ask Sentry not to store IP addresses, and reports are used only to fix bugs</li>"
+)
+SERVICES = {
+    False: ("Google, RevenueCat, PostHog, Apple and Expo", "Google, RevenueCat, PostHog, Apple"),
+    True: ("Google, RevenueCat, PostHog, Sentry, Apple and Expo", "Google, RevenueCat, PostHog, Sentry, Apple"),
+}
+
 cards = []
 for p in cfg["projects"]:
     out = ROOT / "projects" / p["slug"]
@@ -43,6 +55,9 @@ for p in cfg["projects"]:
     vars = {k: p[k] for k in ("name", "tagline", "description", "updated")} | {"latin": latin}
     for k, default in DEFAULTS.items():
         vars[k] = p.get(k, default)
+    crash = bool(p.get("crash_reports"))
+    vars["crash_item"] = CRASH_ITEM if crash else ""
+    vars["services_connect"], vars["services_transfer"] = SERVICES[crash]
     initial = p.get("latinName", p["name"])[0].upper()
     common_kw = dict(color=p["color"], initial=initial, root="../../")
     footer = f' · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a>'
