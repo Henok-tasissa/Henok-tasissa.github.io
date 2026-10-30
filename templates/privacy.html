@@ -10,10 +10,10 @@
   </div>
 
   <h2>1. Data stored on your device</h2>
-  <p>The app saves your progress locally using your device's app storage: the level you are on, coins, stars, your daily streak, {progress_items}, achievements, settings such as the sound toggle, and whether you have bought Remove Ads. This data is not sent to us. Deleting the app deletes it.</p>
+  <p>The app saves your progress locally using your device's app storage: the level you are on, coins, stars, your daily streak, {progress_items}, {achievements_clause}settings such as the sound toggle, and whether you have bought Remove Ads. This data is not sent to us. Deleting the app deletes it.</p>
 
   <h2>2. Advertising (Google AdMob)</h2>
-  <p>The app shows ads through Google AdMob, including rewarded videos you choose to watch and occasional interstitial ads between levels. To serve and measure ads, Google's SDK may collect:</p>
+  <p>The app shows ads through Google AdMob, including {ad_kinds}. To serve and measure ads, Google's SDK may collect:</p>
   <ul>
     <li>your device's advertising identifier (IDFA on iOS, Advertising ID on Android), only if you allow it</li>
     <li>IP address and approximate location derived from it</li>
@@ -26,7 +26,7 @@
     <li>On iOS, the app asks "Allow tracking?" before using the advertising identifier. If you decline, you still get the whole game and ads become non-personalized.</li>
     <li>In the European Economic Area, the United Kingdom and Switzerland, a consent form appears on first launch. You can change your choice at any time with "Ad privacy options" in the app's Shop screen.</li>
     <li>You can reset or limit your advertising identifier in your device settings (iOS: Settings → Privacy &amp; Security → Tracking; Android: Settings → Google → Ads).</li>
-    <li>Buying <strong>Remove Ads</strong> stops interstitial ads permanently. Rewarded videos remain optional.</li>
+    <li>Buying <strong>Remove Ads</strong> stops {remove_ads_effect} permanently. Rewarded videos remain optional.</li>
   </ul>
 
   <h2>3. In-app purchases</h2>
@@ -34,7 +34,7 @@
   <p>We use <a href="https://www.revenuecat.com/privacy">RevenueCat</a> to validate purchases and let you restore them on a new device. RevenueCat receives a random anonymous app user ID generated on your device, the purchase receipt, and the technical information any internet service receives when an app connects to it. It does not receive your name or email.</p>
 
   <h2>4. Anonymous usage statistics</h2>
-  <p>To learn which levels are too hard, whether the game is fun and whether it works well, the app sends anonymous usage events to <a href="https://posthog.com/privacy">PostHog</a>, such as "level 12 completed with 3 stars", "a timed challenge was failed" or "an ad was shown". Each event carries a random ID generated when you install the app, the app name and version, and your operating system (iOS or Android).</p>
+  <p>To learn which levels are too hard, whether the game is fun and whether it works well, the app sends anonymous usage events to <a href="https://posthog.com/privacy">PostHog</a>, such as "level 12 completed with 3 stars", "{second_event}" or "an ad was shown". Each event carries a random ID generated when you install the app, the app name and version, and your operating system (iOS or Android).</p>
   <ul>
     <li>The random ID is not linked to your name, email, account or advertising identifier, and reinstalling the app creates a new one</li>
     <li>Your IP address is discarded by our PostHog settings and is not stored, and no location is collected</li>

@@ -73,19 +73,25 @@
       "description": "A circular block puzzle: drag pieces onto a dial and fill a whole ring or slice to clear it. Adventure levels with goals, an endless Legend mode that changes its look as your score climbs, boosters, a daily coin chest and optional chill music.",
       "bundleId": "com.henok.orbitblocks",
       "color": "#6A4CF0",
-      "updated": "25 October 2026",
+      "updated": "30 October 2026",
       "ads": true,
       "purchases": true,
       "accounts": false,
       "crash_reports": true,
       "progress_items": "stars and unlocked levels, your Legend best score and zone, boosters you own",
-      "notifications_text": "The app does not send notifications",
+      "notifications_text": "If you turn on daily reminders, they are scheduled on your device and nothing about them is sent to us. The anonymous usage statistics (section 4) only note whether a reminder was opened, which kind it was and the time of day, and you can turn reminders off any time in Settings",
       "content_assets": "level designs",
       "items_list": "Coins, Turns packs, hammers, bombs, shuffles",
       "content_title": "Boosters and rewards",
       "content_text": "Coins, Turns and boosters are virtual items with no cash value. Rewarded ads are optional: every mode can be played without watching one, and the game never requires a purchase to continue.",
       "support_prompt": "Questions or bugs?",
-      "purchases_list": "coin packs, the Starter Pack and Remove Ads"
+      "purchases_list": "coin packs, the Starter Pack and Remove Ads",
+      "achievements_clause": "",
+      "ad_kinds": "rewarded videos you choose to watch, a small banner at the bottom of the game screen, and occasional full-screen interstitial ads between games and levels",
+      "remove_ads_effect": "the banner and the interstitial ads",
+      "second_event": "a Legend game ended in zone 3",
+      "terms_other_ads": "others are a small banner on the game screen or full-screen ads between games and levels",
+      "terms_remove_ads": "the banner and the full-screen ads"
     }
   ]
 }

@@ -33,6 +33,12 @@ DEFAULTS = {
     "content_text": "The app's word lists are built from public dictionaries and other sources, and are filtered to remove offensive words. The filtering is automated and imperfect. If a word slips through or a valid word is missing, email us and we will review it. We do not guarantee that every word in the game is appropriate, correct or accepted in every region, dialect or spelling.",
     "purchases_list": "coin packs, the Starter Pack and Remove Ads",
     "support_prompt": "Questions, bugs or a word that should be accepted?",
+    "achievements_clause": "achievements, ",
+    "ad_kinds": "rewarded videos you choose to watch and occasional interstitial ads between levels",
+    "remove_ads_effect": "interstitial ads",
+    "second_event": "a timed challenge was failed",
+    "terms_other_ads": "others appear between levels",
+    "terms_remove_ads": "the ads between levels",
 }
 
 # Projects with "crash_reports": true send crash reports to Sentry; the policy must say so (never hand-edit the built
