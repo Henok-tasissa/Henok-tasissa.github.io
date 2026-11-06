@@ -92,6 +92,31 @@
       "second_event": "a Legend game ended in zone 3",
       "terms_other_ads": "others are a small banner on the game screen or full-screen ads between games and levels",
       "terms_remove_ads": "the banner and the full-screen ads"
+    },
+    {
+      "slug": "gapsmith",
+      "name": "Gapsmith",
+      "tagline": "Forge the fit. Beat the wall.",
+      "language": "English",
+      "description": "A fast puzzle game: a wall rushes down the corridor with a shaped gap in it, and you drag shards into the gap before it lands. Journeywork takes you stage by stage along named roads, Dayforge is a new run every day that is the same for everyone, and Long Burn is a chase after your own best score.",
+      "bundleId": "com.gapsmith.game",
+      "color": "#FF7A2F",
+      "updated": "5 November 2026",
+      "accounts": false,
+      "ads": true,
+      "purchases": false,
+      "crash_reports": true,
+      "support_prompt": "Questions or bugs?",
+      "stored_items": "the stages you have finished and how well, your best scores, today's Dayforge result, your daily streak and the spare embers it has earned, whether you have seen the introduction, how many games you have finished, and a random ID used only for the anonymous statistics in section 3",
+      "ad_kinds": "rewarded videos you choose to watch to carry a run on, and a banner at the bottom of the game screen",
+      "first_event": "a Journeywork stage was finished with 2 embers left",
+      "second_event": "a daily streak reached day 3",
+      "notifications_text": "If you allow daily reminders, they are scheduled on your device and nothing about them leaves it. You can turn them off at any time in the app's Settings",
+      "content_assets": "puzzle and stage designs",
+      "items_list": "Embers, spare embers, streaks, scores and ranks",
+      "terms_ads_text": "Some ads are optional rewarded videos you choose to watch to carry a run on; the other is a banner on the game screen. The app never requires you to watch a video.",
+      "content_title": "Scores, streaks and daily runs",
+      "content_text": "Scores, ranks, stage ratings, daily streaks and spare embers exist only inside the app and have no cash value. A daily streak depends on the date and time set on your device. Each day's Dayforge is generated from the date, so it is the same for every player that day, but there is no online leaderboard and scores are not checked or compared by us."
     }
   ]
 }

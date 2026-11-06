@@ -1,0 +1,73 @@
+<header><div class="wrap"><div class="tile" style="width:44px;height:44px;font-size:26px" aria-hidden="true">{initial}</div><a href="index.html">{name}</a><nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></div></header>
+<main class="wrap">
+  <h1>Privacy Policy</h1>
+  <p class="updated">{name}{latin} · Last updated: {updated}</p>
+
+  <p>This policy explains what <strong>{name}</strong> ("the app"), published by {owner} ("we", an individual), does with your data on iOS and Android. We are the controller of the limited data described here. You can reach us at the email address in section 12.</p>
+
+  <div class="card">
+    <strong>In short:</strong> the app is free, with no accounts, no login and nothing to buy. Your game progress stays on your device. The only data that leaves your device is anonymous usage statistics (no identity, no IP address stored), what Google AdMob needs to show ads, routine technical requests when the app checks for updates, and any email you choose to send us. We never sell your data.
+  </div>
+
+  <h2>1. Data stored on your device</h2>
+  <p>The app saves your progress locally using your device's app storage: {stored_items}, and settings such as the sound and reminder switches. This data is not sent to us. Deleting the app deletes it.</p>
+
+  <h2>2. Advertising (Google AdMob)</h2>
+  <p>The app shows ads through Google AdMob: {ad_kinds}. To serve and measure ads, Google's SDK may collect:</p>
+  <ul>
+    <li>your device's advertising identifier (IDFA on iOS, Advertising ID on Android), only if you allow it</li>
+    <li>IP address and approximate location derived from it</li>
+    <li>device and app information (model, operating system, language, app version)</li>
+    <li>ad interaction data (which ads were shown, viewed or tapped)</li>
+  </ul>
+  <p>Google acts as an independent party for this data. How Google uses it is described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. If you allow tracking, Google may use your advertising identifier to show more relevant ads, which can involve linking it with data from other companies' apps and websites. We do not receive that data.</p>
+  <p><strong>Your choices.</strong></p>
+  <ul>
+    <li>On iOS, the app asks "Allow tracking?" before using the advertising identifier. If you decline, you still get the whole game and ads become non-personalized.</li>
+    <li>In the European Economic Area, the United Kingdom and Switzerland, a consent form appears before any ad is loaded. You can change your choice at any time {privacy_options_where}.</li>
+    <li>You can reset or limit your advertising identifier in your device settings (iOS: Settings → Privacy &amp; Security → Tracking; Android: Settings → Google → Ads).</li>
+    <li>Rewarded videos are always optional: the app never requires you to watch one.</li>
+  </ul>
+
+  <h2>3. Anonymous usage statistics</h2>
+  <p>To learn which parts of the game are too hard, whether it is fun and whether it works well, the app sends anonymous usage events to <a href="https://posthog.com/privacy">PostHog</a>, such as "{first_event}", "{second_event}" or "a rewarded ad was watched". Each event carries a random ID generated when you install the app, the app name and version, and your operating system (iOS or Android).</p>
+  <ul>
+    <li>The random ID is not linked to your name, email, account or advertising identifier, and reinstalling the app creates a new one</li>
+    <li>Your IP address is discarded by our PostHog settings and is not stored, and no location is collected</li>
+    <li>No contacts, photos, microphone or camera data, and no screen recordings, are ever collected</li>
+    <li>Events are never used for advertising or sold</li>{crash_item}
+  </ul>
+
+  <h2>4. App updates and technical connections</h2>
+  <p>The app checks for updates through Expo's update service, and the services above ({services_connect}) receive the routine technical information that any internet connection involves, such as an IP address, the app version and the device's operating system. We do not use that information to identify you, and where a service lets us turn off IP storage we have done so.</p>
+
+  <h2>5. Email</h2>
+  <p>If you email us, we receive your email address and whatever you write. We use it only to reply and to improve the app. Please do not include sensitive information. We keep emails for as long as they are useful and delete them on request.</p>
+
+  <h2>6. What we do not collect</h2>
+  <ul>
+    <li>No account, name, email, phone number or password (other than an email you choose to send us)</li>
+    <li>No payment details: the app has nothing to buy</li>
+    <li>No contacts, photos, microphone, camera or precise location</li>
+    <li>We do not ourselves track you across other companies' apps or websites. Google AdMob may do so only if you allow tracking, as described in section 2</li>
+    <li>No server-sent notifications. {notifications_text}</li>
+  </ul>
+
+  <h2>7. Children</h2>
+  <p>The app is intended for a general audience and is not directed at children under 13 (or under the higher age that applies where you live). We do not knowingly collect personal data from children. Where the law requires a parent's or guardian's consent for a child to use online services, that consent is needed to use the app. If you believe a child has provided us with personal data, contact us and we will delete it.</p>
+
+  <h2>8. Data retention and deletion</h2>
+  <p>Progress stays on your device until you delete the app. Advertising data is retained by Google under its retention policies. Anonymous usage events and crash reports are kept only as long as they are useful for fixing and improving the app. To ask for deletion of anonymous data held on your behalf, email us with the approximate date you installed the app and the store you used; because the data is anonymous, we may need these details to find it.</p>
+
+  <h2>9. Your rights and legal bases</h2>
+  <p>Depending on where you live (for example under the GDPR in Europe and the UK, or the CCPA in California), you may have the right to access, correct, delete or restrict the processing of your personal data, to object to or withdraw consent for personalized advertising, and to complain to your local data protection authority. Where the GDPR applies, we rely on your consent for personalized ads and on our legitimate interest in improving and fixing the app for anonymous statistics and crash reports. We do not sell or share personal information for cross-context behavioral advertising ourselves, and we do not respond to browser "Do Not Track" signals because the app is not a website. Use the choices in section 2, or contact us at the address below.</p>
+
+  <h2>10. International transfers and security</h2>
+  <p>The services we use ({services_transfer}) may process data in the United States and other countries, under their own safeguards. We take reasonable steps to protect the little data we handle, but no system can be guaranteed to be completely secure, and we are not responsible for how third-party services protect or use data they collect independently.</p>
+
+  <h2>11. Changes</h2>
+  <p>If this policy changes, the new version will be posted here with a new "Last updated" date.</p>
+
+  <h2>12. Contact</h2>
+  <p>{owner}<br>Email: <a href="mailto:{email}">{email}</a></p>
+</main>

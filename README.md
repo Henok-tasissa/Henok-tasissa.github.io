@@ -25,6 +25,8 @@ build.py                       # projects.json + templates → HTML
 The privacy and terms templates describe a free app with AdMob ads, store
 purchases through RevenueCat, no accounts and progress stored on the device.
 Set `"crash_reports": true` on a project that ships Sentry; the policy then
-names it. Never hand-edit the built HTML: `build.py` overwrites it.
+names it. Set `"purchases": false` on a free app with ads but nothing
+to buy: it is then built from the `_free` templates, which leave out RevenueCat,
+Remove Ads and the shop instead of describing purchases that do not exist. Never hand-edit the built HTML: `build.py` overwrites it.
 Edit `templates/privacy.html` / `templates/terms.html` if a project differs,
 or add a per-project template and point `build.py` at it.
